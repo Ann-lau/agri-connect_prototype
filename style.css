@@ -32,6 +32,10 @@ body{
   background: #eee;
 }
 
+section{
+  padding: 2rem 9%;
+}
+
 .btn{
   margin-top: 1rem;
   display: inline-block;
@@ -254,6 +258,17 @@ body{
   text-decoration: underline;
 }
 
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./images/FertAgTech-InnerBanner.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+
 
 
 
@@ -293,6 +308,10 @@ body{
 
 }
 
+section{
+  padding: 2rem;
+}
+
 @media (max-width:768px){
 
   #menu-btn{
@@ -302,7 +321,7 @@ body{
   .header .search-form{
     width: 90%;
   }
-  
+
   .header .navbar{
     position: absolute;
     top: 110; right: -110%;
