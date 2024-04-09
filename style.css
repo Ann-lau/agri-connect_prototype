@@ -38,7 +38,7 @@ body{
   padding: .8rem 3rem;
   font-size: 1.7rem;
   border-radius: .5rem;
-  border: .2rem solid var(--black);
+  border:.2rem solid var(--black);
   color: var(--black);
   cursor: pointer;
   background: none;
@@ -154,7 +154,7 @@ body{
 
 .header .shopping-cart.active{
   right: 2rem;
-  transition:.4s linear;
+  transition: .4s linear;
 }
 
 .header .shopping-cart .box{
