@@ -5,7 +5,7 @@
   --orange:#ff7800;
   --black:#130f40;
   --light-color:#666
-  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
   --border:.2rem solid rgba(0,0,.1);
   --outline:.1rem solid rgba(0,0,.1);
   --outline-hover:.2rem solid var(--black);
@@ -295,6 +295,13 @@ section{
   font-size: 2.5rem;
 }
 
+.home .content p{
+  color: var(--light-color);
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
 .features .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -308,6 +315,34 @@ section{
   outline-offset: -1rem;
   text-align: center;
 }
+
+.features .box-container .box:hover{
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+
+.features .box-container .box h3{
+  font-size: 2rem;
+  line-height: 1.8;
+  color: var(--black);
+}
+
+.features .box-container .box p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
