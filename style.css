@@ -308,7 +308,7 @@ section{
   gap: 1.5rem;
 }
 
-.features .box-container .box{
+.features .box-container .box {
   padding: 3rem 2rem;
   background: #fff;
   outline: var(--outline);
@@ -332,6 +332,51 @@ section{
   line-height: 1.8;
   color: var(--light-color);
   padding: 1rem 0;
+}
+
+.souk .souk-slider{
+  padding: 1rem;
+}
+
+.souk .souk-slider:first-child{
+  margin-bottom: 2rem;
+}
+
+.souk .souk-slider .box{
+  background: #fff;
+  border-radius: .5rem;
+  text-align: center;
+  padding: 3rem 2rem;
+  outline-offset: -1rem;
+  outline: var(--outline);
+  box-shadow: var(--box-shadow);
+  transition: .2s linear;
+}
+
+.souk .souk-slider .box:hover{
+  outline-offset: 0rem;
+  outline: var(--outline-hover);
+}
+
+.souk .souk-slider .box img{
+  height: 20rem;
+}
+
+.souk .souk-slider .box h3{
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.souk .souk-slider .box .price{
+  font-size: 2rem;
+  color: var(--light-color);
+  padding: .5rem 0;
+}
+
+.souk .souk-slider .box .stars i{
+  font-size: 1.7rem;
+  color: var(--orange);
+  padding: .5rem 0;
 }
 
 
