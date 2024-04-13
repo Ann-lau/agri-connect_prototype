@@ -41,7 +41,11 @@ Getting Started:
 To get started with Agri-Connect, follow these steps:
 
 Sign Up: Create an account on the Agri-Connect platform.
+
 Explore Features: Discover the range of features and functionalities available.
+
 Connect: Engage with other users, share insights, and collaborate on projects.
+
 Optimize: Use data analytics and monitoring tools to optimize agricultural practices.
+
 Contribute: Contribute to sustainability efforts and innovation within the agricultural sector.
