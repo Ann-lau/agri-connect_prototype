@@ -32,6 +32,10 @@ Researchers and Agricultural Institutions
 Government Agencies and NGOs
 Technology Providers and Innovators in Agriculture
 
+Deployment:
+
+Agri-Connect is deployed on Netlify and can be accessed at https://agri-connectssd.netlify.app/.
+
 Getting Started:
 
 To get started with Agri-Connect, follow these steps:
